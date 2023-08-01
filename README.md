@@ -1,4 +1,4 @@
-# chatgptvisual - Accenture-Super-Consultant
+# Accenture-Super-Consultant-chatgptvisual
 
 In order to run this project, make sure you have the environment set up. Please note that this project is currently operable on Windows.
 
