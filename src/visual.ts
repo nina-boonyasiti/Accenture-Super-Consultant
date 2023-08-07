@@ -78,15 +78,10 @@ export class Visual implements IVisual {
     public update(options: VisualUpdateOptions) {
         // Add your Power BI visual update code here
         // Call the ChatGPT API with a sample prompt and your API key
-        callChatGPTAPI("Integrate Power BI with ChatGPT", "<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>")
+        callChatGPTAPI("Integrate Power BI with ChatGPT", "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")
             .then(response => {
                 // Display the response in a text element
-                const textElement = this.target.append("text")
-                    .attr("x", 10)
-                    .attr("y", 50)
-                    .text(response);
-                // Update the text element with the response from ChatGPT
-                textElement.text(response);
+                const textElement = this.target.appendChild(document.createTextNode(response));
             })
             .catch(error => {
                 console.error("Error calling ChatGPT API:", error);

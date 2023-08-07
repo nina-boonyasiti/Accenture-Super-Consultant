@@ -1,1 +1,26 @@
-{"visual":{"name":"chatgptvisual","displayName":"chatgpt_visual","guid":"chatgptvisual3D3227289D8F471B8D1B532732E54FD3","visualClassName":"Visual","version":"1.0.0.0","description":"","supportUrl":"","gitHubUrl":""},"apiVersion":"5.3.0","author":{"name":"","email":""},"assets":{"icon":"assets/icon.png"},"externalJS":null,"style":"style/visual.less","capabilities":"capabilities.json","dependencies":null,"stringResources":[],"version":"1.0.0.0"}
+{
+    "visual": {
+        "name": "chatgptvisual",
+        "displayName": "chatgpt_visual",
+        "guid": "chatgptvisual3D3227289D8F471B8D1B532732E54FD3",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Accenture Super Consultant with ChatGPT & PowerBI",
+        "supportUrl": "https://github.com/nina-boonyasiti/Accenture-Super-Consultant",
+        "gitHubUrl": "https://github.com/nina-boonyasiti/Accenture-Super-Consultant"
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "Nina Boonyasiti",
+        "email": "nahathai.boonyasiti@accenture.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

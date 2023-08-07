@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Nina Boonyasiti","email":"nahathai.boonyasiti@accenture.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/chatgptvisual3D3227289D8F471B8D1B532732E54FD3.pbiviz.json"
+			}
+		],
+		"visual": {"name":"chatgptvisual","displayName":"chatgpt_visual","guid":"chatgptvisual3D3227289D8F471B8D1B532732E54FD3","visualClassName":"Visual","version":"1.0.0.0","description":"Accenture Super Consultant with ChatGPT & PowerBI","supportUrl":"https://github.com/nina-boonyasiti/Accenture-Super-Consultant","gitHubUrl":"https://github.com/nina-boonyasiti/Accenture-Super-Consultant"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}
