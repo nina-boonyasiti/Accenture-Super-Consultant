@@ -1,0 +1,46 @@
+= Python.Execute("
+import pandas as pd
+import openai
+
+model='gpt-3.5-turbo'
+temperature=1.1
+max_tokens=2048
+top_p=1
+frequency_penalty=0
+presence_penalty=0.6
+
+openai.api_key="&key&"
+
+message = """"
+ChatGPT = "&ChatGPT&"
+use_data = "&Data&"
+if use_data == ""1"":
+
+    for index, row in dataset[["&Columns&"]].loc[dataset.Table == "&Table&"].iterrows():
+        message += ' '.join([str(col) for col in row])
+        if index > int("&limit&"):
+            break
+    prompt = f""Using this data:\n{message}\n{ChatGPT}""
+
+else:
+    prompt = ChatGPT
+
+
+chat = openai.ChatCompletion.create(
+        model=model,
+        messages=[{'role': 'user',
+              'content': prompt
+              }],
+        temperature=temperature,
+        max_tokens=max_tokens,
+        top_p=top_p,
+        frequency_penalty=frequency_penalty,
+        presence_penalty=presence_penalty
+        )
+
+reply = chat.choices[0].message.content
+responsedf = pd.DataFrame(data=[reply], columns=['Response'])
+", 
+
+
+[dataset=#"Removed Other Columns"])
