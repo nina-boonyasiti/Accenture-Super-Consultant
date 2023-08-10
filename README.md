@@ -16,3 +16,5 @@ After ensuring the environment is set up, you will need to change your OpenAI AP
 Once this is complete, run 'pbiviz package' in the command prompt. This will generate a .pbiviz file in the dist folder.
 
 In the 'Visualizations' pane select "Import from file" and import this.pbiviz file.
+
+Note that there is an additional python file Power Query to use within PowerBi to complete this project. 
