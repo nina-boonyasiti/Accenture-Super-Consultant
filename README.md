@@ -17,4 +17,4 @@ Once this is complete, run 'pbiviz package' in the command prompt. This will gen
 
 In the 'Visualizations' pane select "Import from file" and import this.pbiviz file.
 
-Note that there is an additional python file Power Query to use within PowerBi to complete this project. 
+Note that there is an additional python code in a text file containing a Power Query to use within PowerBi to complete this project. 
